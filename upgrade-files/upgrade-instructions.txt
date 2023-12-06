@@ -1,0 +1,18 @@
+This upgrade (v1.3.2) includes:
+
+1. Fix to subscription cancellation url (throwing an error 'missing required parameters for route')
+2. Fix to success message showing the HTML tags instead of an actual button to /my-account
+3. Only show approved companies in /browse-category/{category-name} - it was previously showing pending approval
+4. Only show/count ratings averages & stars on reviews that are approved
+5. On some phones in browse category page, the stars were going to a 2nd-line - not anymore
+
+To upgrade, simply copy & overwrite the files in /upgrade-files/files/ folder
+
+'upgrade-files/resources/views/review-single.blade.php' => 'resources/views/review-single.blade.php'
+'upgrade-files/app/Http/Controllers/EmbeddedController.php' => 'app/Http/Controllers/EmbeddedController.php'
+'upgrade-files/app/Sites.php' => 'app/Sites.php'
+'upgrade-files/resources/views/search/results.blade.php' => 'resources/views/search/results.blade.php'
+'upgrade-files/resources/views/browse-category.blade.php' => resources/views/browse-category.blade.php
+'upgrade-files/app/Http/Controllers/CategoryController.php' => 'app/Http/Controllers/CategoryController.php'
+'upgrade-files/resources/views/checkout/success.blade.php' => 'resources/views/checkout/success.blade.php'
+'upgrade-files/resources/views/account/my-billing.blade.php' => 'resources/views/account/my-billing.blade.php'
