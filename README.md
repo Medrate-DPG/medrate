@@ -1,4 +1,5 @@
 <p align="center"><img src="https://medrate.nexmatics.africa/public/7776056916445910b95139.png" width="400"></p>
+<p align="center"><h2>Medrate Healthcare Reviews</h2></p>
 
 ##  Setting up Git bash 
 - Download Git bash from here :[https://git-scm.com/download](https://git-scm.com/download)
