@@ -82,7 +82,7 @@ Thank you for considering contributing to this project! Our user guide can be fo
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within this project, please send an e-mail to our tech team via [odoijoshua55@gmail.com](mailto:odoijoshua55@gmail.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this project, please send an e-mail to our tech team via [admin@medrate.nexmatics.africa](mailto:admin@medrate.nexmatics.africa). All security vulnerabilities will be promptly addressed.
 
 ## Copyright
 Ownership by Unicef Startup Lab Cohort 3 (Ghana) championed by: <br />
